@@ -14,6 +14,7 @@ A simple chatbot that can help users check their symptoms and provide relevant i
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#Contact)
 
 ## Introduction
 
