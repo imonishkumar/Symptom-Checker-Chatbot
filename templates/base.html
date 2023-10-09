@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/botfav.jpg') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Medical Assistant</title>
+    <style>
+        .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container{
+            max-width:500px;
+        }
+
+        .img-fluid {
+            max-width: 50%;
+            height: auto;
+        }
+
+        h1{
+            text-align:center;
+        }
+
+        .card{
+            text-align: center;
+            align-items: center;
+            margin : auto;
+        }
+
+        ol{
+          font-size: 20px ;
+          text-align: left;
+        }
+
+        p{
+            font-size: 25px;
+        }
+
+        .navbar-nav .nav-item {
+          margin-right: 200px; /* Adjust the margin as needed */
+            color:White;
+
+        }
+        
+    </style>
+    <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: rgb(89, 238, 189); height:70px; padding:20px; text-align: center;color: white; width: 100%;">
+        <a class="navbar-brand" href="#">Welcome</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" >Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="margin-left: -50px;">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="margin-left: -50px;">Contact us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="margin-left: -50px;">Help ?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/login" style="margin-left: -50px;">Admin login</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            
+          </span>
+        </div>
+      </nav>
+
+      <br><h1 style="font-size:55px; font-weight:bold;">Medical Symptom Checker</h1><br><br>
+    <div class="card" style="width:1250px; height:750px; align-items:center; background-color: aliceblue; padding:20px; border-radius: 50px;">
+    <div class="card-body">   
+    <div class="center-container">
+        <div class="container">
+            <div class="row">
+                <!-- Left Side (Photo) -->
+                <div class="col-md-6">
+                    <img src="./static/images/image1.png" alt="Your Photo" class="img-fluid" style="width:500px; ">
+                </div>
+                
+                <!-- Right Side (Text) -->
+                <div class="col-md-6">
+                    <h1 style="font-size:45px; font-weight:100px;">How the Medical Symptom Checker Works</h1><br><br>
+                    <ol type="circle">
+                        <li>Answer questions about yourself and your medical conditions.</li>
+                        <li>Enter your medical symptoms to receive your health analysis.</li><br><br>
+                    </ol>
+                    <p> You can enter your symptoms by clicking the Chatbox and you can get the Accurate Potential Conditions for it 👇</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+ 
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/message.jpg') }}" style="width: 60px; height:50px;"/></button>
+        </div>
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="{{ url_for('static', filename='images/bot.jpg') }}" alt="image" style="width: 45px; border-radius: 50px;">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Symptom checker </h4>
+                    <p class="chatbox__description--header">Hi, Enter symptoms and get a list of potential conditions</p>
+                </div>
+            </div>  
+            <div class="chatbox__messages">
+                <div>
+                  <div class="messages__item messages__item--visitor">Hi, this is a medical chat support.</div>
+                  <div class="messages__item messages__item--visitor">May I know your name.</div>
+                </div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }} ;
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+<br><br><br>
+<footer class="relative bg-blueGray-200 pt-8 pb-6">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap text-left lg:text-left">
+      <div class="w-full lg:w-6/12 px-4">
+        <h4 class="text-3xl fonat-semibold text-blueGray-700">Let's keep in touch!</h4>
+        <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
+        </h5>
+        <div class="mt-6 lg:mb-0 mb-6">
+          <button class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-linkedin"></i></button><button class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-facebook-square"></i></button><button class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-github"></i>
+          </button>
+        </div>
+      </div>
+      <div class="w-full lg:w-6/12 px-4">
+        <div class="flex flex-wrap items-top mb-6">
+          <div class="w-full lg:w-4/12 px-4 ml-auto">
+            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">About Us</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Github</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full lg:w-4/12 px-4">
+            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Terms &amp; Conditions</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Privacy Policy</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="my-6 border-blueGray-300">
+    <div class="flex flex-wrap items-center md:justify-between justify-center">
+      <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+        <div class="text-sm text-blueGray-500 font-semibold py-1">
+          Copyright © <span id="get-current-year">2023</span><a href="https://www.creative-tim.com/product/notus-js" class="text-blueGray-500 hover:text-gray-800" target="_blank"> by
+          <a href="#" class="text-blueGray-500 hover:text-blueGray-800">The Tech Wizards</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>

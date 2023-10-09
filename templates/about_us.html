@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<style>
+    .team-boxed {
+  color:#313437;
+  background-color:#eef4f7;
+}
+
+.team-boxed p {
+  color:#7d8285;
+}
+
+.team-boxed h2 {
+  font-weight:bold;
+  margin-bottom:40px;
+  padding-top:40px;
+  color:inherit;
+}
+
+@media (max-width:767px) {
+  .team-boxed h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+  }
+}
+
+.team-boxed .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto;
+}
+
+.team-boxed .intro p {
+  margin-bottom:0;
+}
+
+.team-boxed .people {
+  padding:50px 0;
+}
+
+.team-boxed .item {
+  text-align:center;
+}
+
+.team-boxed .item .box {
+  text-align:center;
+  padding:30px;
+  background-color:#fff;
+  margin-bottom:30px;
+}
+
+.team-boxed .item .name {
+  font-weight:bold;
+  margin-top:28px;
+  margin-bottom:8px;
+  color:inherit;
+}
+
+.team-boxed .item .title {
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#d0d0d0;
+  letter-spacing:2px;
+  font-size:13px;
+}
+
+.team-boxed .item .description {
+  font-size:15px;
+  margin-top:15px;
+  margin-bottom:20px;
+}
+
+.team-boxed .item img {
+  max-width:160px;
+}
+
+.team-boxed .social {
+  font-size:18px;
+  color:#a2a8ae;
+}
+
+.team-boxed .social a {
+  color:inherit;
+  margin:0 10px;
+  display:inline-block;
+  opacity:0.7;
+}
+
+.team-boxed .social a:hover {
+  opacity:1;
+}
+.profile-pic {
+            width: 150px; /* Adjust the size as needed */
+            height: 150px; /* Adjust the size as needed */
+            border-radius: 50%; /* Make it circular */
+        }
+
+</style>
+
+<body>
+    <div class="team-boxed">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">About Us</h2>
+                <p class="text-center"></p>
+            </div>
+            <div class="row people">
+                <div class="col-md-6 col-xl-auto item">
+                    <div class="box">
+                        <img class="rounded-circle" src="{{ url_for('static', filename='images/sk.jpeg') }}" alt="Profile Photo">
+                        <h3 class="name">Sanjay Kumar</h3>
+                        <p class="title"></p>
+                        <p class="description"></p>
+                        <div class="social"><a href="https://www.linkedin.com/in/sanjay-kumar-m-80567622b/"><i class="fa fa-linkedin-square"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-auto item">
+                     <div class="box">
+                      <img class="rounded-circle" src="{{ url_for('static', filename='images/prg.jpeg') }}" alt="Profile Photo">
+                      <h3 class="name">Pragatheswaran</h3>
+                      <p class="title"></p>
+                      <p class="description"></p>
+                      <div class="social"><a href="https://www.linkedin.com/in/pragatheswaran-s-3b2084232/"><i class="fa fa-linkedin-square"></i></a></div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-xl-auto item">
+                <div class="box">
+                    <img class="rounded-circle" src="{{ url_for('static', filename='images/moni.jpg') }}" alt="Profile Photo">
+                    <h3 class="name">Monish Kumar</h3>
+                    <p class="title"></p>
+                    <p class="description"></p>
+                    <div class="social"><a href="https://www.linkedin.com/in/monish-kumar-a-38777b1b6/"><i class="fa fa-linkedin-square"></i></a></div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-auto item">
+              <div class="box">
+                  <img class="rounded-circle" src="{{ url_for('static', filename='images/sg.jpg') }}" alt="Profile Photo">
+                  <h3 class="name">Sanjay Gandhi</h3>
+                  <p class="title"></p>
+                  <p class="description"></p>
+                  <div class="social"><a href="https://www.linkedin.com/in/sanjay-gandhi-91aa85238/"><i class="fa fa-linkedin-square"></i></a></div>
+              </div>
+          </div>
+               
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

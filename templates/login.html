@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- Add Bootstrap CSS and JavaScript links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f2f2f2; /* Background color for the entire page */
+        }
+        .custom-card {
+            background-color: #ffffff; /* Background color for the card */
+            border-radius: 10px; /* Rounded corners for the card */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow for the card */
+            width: 700px; /* Specify the width of the card */
+            height: 400px; /* Specify the height of the card */
+            padding: 20px;
+            margin-left:-130px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center" style="height: 100vh;">
+            <div class="col-md-6 col-lg-4">
+                <div class="custom-card">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="./static/images/bot.jpg" alt="Your Image" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <h3 class="text-center">Login</h3><br><br>
+                            <form id="loginForm" action="/admin">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" placeholder="Username" id="username" onmouseover="this.style.backgroundColor='#f5f5f5'" onmouseout="this.style.backgroundColor='white'">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="password" class="form-control" placeholder="Password" id="password" onmouseover="this.style.backgroundColor='#f5f5f5'" onmouseout="this.style.backgroundColor='white'"><br>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block" onmouseover="this.style.backgroundColor='#2196F3'" onmouseout="this.style.backgroundColor='#007BFF'">Log In</button>
+                            </form>
+                            <p class="text-center mt-3">Don't have an account? <a href="#">Sign Up</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Add Bootstrap JavaScript at the end of the body tag -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Define the correct username and password
+        const correctUsername = "admin";
+        const correctPassword = "admin@123";
+        
+        // Get the login form
+        const loginForm = document.getElementById("loginForm");
+        
+        // Add a submit event listener to the form
+        loginForm.addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            
+            // Get the entered username and password
+            const enteredUsername = document.getElementById("username").value;
+            const enteredPassword = document.getElementById("password").value;
+            
+            // Check if the entered username and password are correct
+            if (enteredUsername === correctUsername && enteredPassword === correctPassword) {
+                // Navigate to another page (replace 'your-other-page.html' with the actual URL)
+                window.location.href = "/admin";
+            } else {
+                // Display an alert for invalid login
+                alert("Username or password is invalid. Please try again.");
+            }
+        });
+    </script>
+</body>
+</html>

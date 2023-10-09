@@ -1,0 +1,716 @@
+{
+    "intents": [
+        {
+            "tag": "A C Hospital, Chennai",
+            "location": [
+                13.0972,
+                80.2328
+            ],
+            "Address": "No-8, 3Rd Main Road, United India Nagar, Ayanavaram, Chennai-600023, Tamil Nadu, India"
+        },
+        {
+            "tag": "A.N.N Hospital, Chennai",
+            "location": [
+                13.0356,
+                80.1659
+            ],
+            "Address": "81-85, Annai Therasa Street, Valasaravakkam, Chennai, Tamil Nadu, India, 600087"
+        },
+        {
+            "tag": "A.V. Hospitals, Chennai",
+            "location": [
+                13.1092,
+                80.2884
+            ],
+            "Address": "# 172, Solaiappan Street, Tondirepet (North Chennai) Near Maharani Theatre, Chennai, Tamil Nadu, India, 600021"
+        },
+        {
+            "tag": "Aakash Hospital, Chennai",
+            "location": [
+                13.1605,
+                80.3065
+            ],
+            "Address": "# 393/1, T.H. Road, Tiruvottiyur, Tiruvallur, Chennai, Tamil Nadu, India, 600019"
+        },
+        {
+            "tag": "Abhijay Hospital (P) Ltd., Chennai",
+            "location": [
+                13.1285,
+                80.2326
+            ],
+            "Address": "No.22/2, E.S.I Hospital Road, Peravallur, Chennai, Tamil Nadu, India, 600011"
+        },
+        {
+            "tag": "Aditya Hospital, Chennai",
+            "location": [
+                13.0792,
+                80.2376
+            ],
+            "Address": "No.7, Barnbay Road, Kilpauk, Chennai-600010, Tamil Nadu, India, 600010"
+        },
+        {
+            "tag": "Adyar P.M. Hospital, Chennai",
+            "location": [
+                13.0062,
+                80.2569
+            ],
+            "Address": "# 58, L.B. Road, Adyar, Chennai-600020, Tamil Nadu, India, 600020"
+        },
+        {
+            "tag": "Agash Nursing Home, Chennai",
+            "location": [
+                12.9547,
+                80.1433
+            ],
+            "Address": "#234, G.S.T. Road, Chromepet, Chennai, Tamil Nadu, India, 600044"
+        },
+        {
+            "tag": "Ak Hospital, Chennai",
+            "location": [
+                13.0732,
+                80.2183
+            ],
+            "Address": "360 Poonamallee High Road, Junction Of Ph Rd & Chennai, Tamil Nadu, India, 600029"
+        },
+        {
+            "tag": "Amma Hospital, Chennai",
+            "location": [
+                13.0679,
+                80.2425
+            ],
+            "Address": "# 1, Sowrastra Nagar7Th Street, Chennai, Tamil Nadu, India, 600094"
+        },
+        {
+            "tag": "Amrit Medicare Pvt Ltd, Chennai",
+            "location": [
+                13.0901,
+                80.2814
+            ],
+            "Address": "No.310, Mint Street, Near Sowcarpet, Chennai-600079, Tamil Nadu, India, 600079"
+        },
+        {
+            "tag": "Anand Hospital, Chennai",
+            "location": [
+                13.2024,
+                80.2786
+            ],
+            "Address": "201, Kamaraj Salai, Manali, Chennai, Tamil Nadu, India, 600068"
+        },
+        {
+            "tag": "Andhra Mahila Sabha, Chennai",
+            "location": [
+                13.0253,
+                80.2639
+            ],
+            "Address": "No.11 & 12, Dr.Durgabaideshmukh Road, R.A.Puram, Chennai, Tamil Nadu, India, 600028"
+        },
+        {
+            "tag": "Annamalai Hospital, Chennai",
+            "location": [
+                13.0395,
+                80.2195
+            ],
+            "Address": "# 27, Govindan Road, West Mambalam, Near Srinivasa Theatre, Chennai, Tamil Nadu, India, 600033"
+        },
+        {
+            "tag": "Apollo First Med Hospitals, Chennai",
+            "location": [
+                13.0795,
+                80.2408
+            ],
+            "Address": "No 154, Poonamallee High Road, Near Neyveli House, Kilpauk, Chennai - 6000, Tamil Nadu, India, 600010"
+        },
+        {
+            "tag": "Apollo Hospital (T.H.Road-Chennai), Chennai",
+            "location": [
+                13.1112,
+                80.2828
+            ],
+            "Address": "#645, T.H.Road, Tondiarpet, Chennai, Tamil Nadu, India, 600081"
+        },
+        {
+            "tag": "Apollo Hospitals (Greams Road-Chennai), Chennai",
+            "location": [
+                13.0608,
+                80.2615
+            ],
+            "Address": "#21, Greams Lane, Greams Road, Chennai-600006, Tamil Nadu, India, 600006"
+        },
+        {
+            "tag": "Apollo Speciality Hospital (Chennai), Chennai",
+            "location": [
+                13.0287,
+                80.2405
+            ],
+            "Address": "No 320 5Th Floor, Padma Complex, Anna Salai, Near Lr Swami Building, Nandanam, Chennai, Tamil Nadu, India, 600035"
+        },
+        {
+            "tag": "Appasamy Medicare Centre Pvt Ltd, Chennai",
+            "location": [
+                13.0803,
+                80.2132
+            ],
+            "Address": "23-25, Friends Avenue, Arumbakkam, Chennaiarumbakkam, Tamil Nadu, India, 600106"
+        },
+        {
+            "tag": "Arokya Hospital, Chennai",
+            "location": [
+                13.1052,
+                80.1601
+            ],
+            "Address": "#32, Pillayar Koil Street, Chennai, Tamil Nadu, India, 600078"
+        },
+        {
+            "tag": "Aswene Soundra Hospital & Research Centre, Chennai",
+            "location": [
+                13.0343,
+                80.2552
+            ],
+            "Address": "# 24, Kasturi Rangan Road, Teynampet, Chennai, Tamil Nadu, India, 600018"
+        },
+        {
+            "tag": "Athipathi Hospital And Research Center, Chennai",
+            "location": [
+                12.9781,
+                80.2076
+            ],
+            "Address": "Plot No 1, 100 Ft Rd, Tanni Nagar, Velachary, Chennai, Tamil Nadu, India, 600042"
+        },
+        {
+            "tag": "Avm Medical Ent Research Foundation, Chennai",
+            "location": [
+                13.0344,
+                80.2663
+            ],
+            "Address": "3, P.S.S. Road, Mylapore, Chennai, Tamil Nadu, India, 600004"
+        },
+        {
+            "tag": "Aysha Hospital, Chennai",
+            "location": [
+                13.0813,
+                80.2458
+            ],
+            "Address": "91A Millers Road, Kilpauk, Chennai, Tamil Nadu, India, 600010"
+        },
+        {
+            "tag": "B M Hospitals, Chennai",
+            "location": [
+                13.0893,
+                80.1969
+            ],
+            "Address": "36, 5Th Main Road, Thillai Ganga Nagar, Chennai, Tamil Nadu, India, 600061"
+        },
+        {
+            "tag": "B.B Hospital, Chennai",
+            "location": [
+                13.1349,
+                80.2174
+            ],
+            "Address": "No.52, Dayalu Nagar, Kolathur, Near Villirakham Railway Station, Chennai, Tamil Nadu, India, 600099"
+        },
+        {
+            "tag": "B.M. Orthopaedic Hospital, Chennai",
+            "location": [
+                13.1129,
+                80.1593
+            ],
+            "Address": "No.3/157, Mth Road, Ambattur, Chennai - 53, Tamil Nadu, India, 600053"
+        },
+        {
+            "tag": "B.S. Hospital, Chennai",
+            "location": [
+                12.9518,
+                80.1271
+            ],
+            "Address": "# 16, 3Rd Main Road, Chitlapakkam, Chennai, Tamil Nadu, India, 600064"
+        },
+        {
+            "tag": "B.S.S. Hospital, Chennai",
+            "location": [
+                13.0254,
+                80.2637
+            ],
+            "Address": "New No 200, Old # 179/1, R.K. Mutt Road, Mandaveli, Chennai, Tamil Nadu, India, 600028"
+        },
+        {
+            "tag": "Babus Maternity Hospital, Chennai",
+            "location": [
+                12.9737,
+                80.1616
+            ],
+            "Address": "# 7, Doraisamy Reddy Street, Tabaram, Chennai, Tamil Nadu, India, 600045"
+        },
+        {
+            "tag": "Bagdi Nursing Home, Chennai",
+            "location": [
+                13.0844,
+                80.2164
+            ],
+            "Address": "3Rd Floor, #10, Solaiappan Streett.Nagar, Chennai, Tamil Nadu, India, 600017"
+        },
+        {
+            "tag": "Balagangadhara Varma Nursing Home & Research Center, Chennai",
+            "location": [
+                13.2173,
+                80.3184
+            ],
+            "Address": "No 17, First Main Road, Narayanapuram, Tamil Nadu, India, 601302"
+        },
+        {
+            "tag": "Bappu Clinic & Nursing Home, Chennai",
+            "location": [
+                12.9239,
+                80.1199
+            ],
+            "Address": "#46, Kalaingar Main Road, Srinivasa Nagar, Perungalatur, Chennai, Tamil Nadu, India, 600063"
+        },
+        {
+            "tag": "Bharath Hospital, Chennai",
+            "location": [
+                12.9754,
+                80.1875
+            ],
+            "Address": "# 72, I St Main Road, Nanganallur, Chennai, Tamil Nadu, India, 600061"
+        },
+        {
+            "tag": "Billroth Hospital Limited, Chennai",
+            "location": [
+                13.0722,
+                80.2236
+            ],
+            "Address": "#43, Lakshmi Takis Rd, Shenoy Nagar, Chennai, Tamil Nadu, India, 600030"
+        },
+        {
+            "tag": "Billroth Hospitals - Ra Puram, Chennai",
+            "location": [
+                13.0249,
+                80.2584
+            ],
+            "Address": "#52, 2Nd Main Road, Raja Annamalai Puram, Raja Annamalai Puram, Chennai, Tamil Nadu, India, 600028"
+        },
+        {
+            "tag": "Brs Hospital Pvt.Ltd, Chennai",
+            "location": [
+                13.0756,
+                80.2309
+            ],
+            "Address": "No.28. Cathedral Garden Road, Cathedral Gardens Road, Chennai, Tamil Nadu, India, 600034"
+        },
+        {
+            "tag": "C.S.I. Kalyani General Hospital, Chennai",
+            "location": [
+                13.0366,
+                80.2683
+            ],
+            "Address": "15, Dr. Radhakrishnan Salai, Mylapore, Chennai-600004, Next To City Centre, Tamil Nadu, India, 600004"
+        },
+        {
+            "tag": "C.S.I. Rainy Multi-Speciality Hospital, Chennai",
+            "location": [
+                13.0931,
+                80.2851
+            ],
+            "Address": "#45, G.A. Road, Chennai, Tamil Nadu, India, 600021"
+        },
+        {
+            "tag": "C.S.M Nursing Home, Chennai",
+            "location": [
+                13.0405,
+                80.2302
+            ],
+            "Address": "# 18, Rukmani Street, West Mambalam, Chennai, Tamil Nadu, India, 600033"
+        },
+        {
+            "tag": "Cauvery Trust Hospital, Chennai",
+            "location": [
+                13.1276,
+                80.2049
+            ],
+            "Address": "No.36, Ponnankinaru Street, Villivakkam, Chennai, Tamil Nadu, India, 600049"
+        },
+        {
+            "tag": "Chennai Krishna Hospital, Chennai",
+            "location": [
+                12.9585,
+                80.1429
+            ],
+            "Address": "No. 297, GST Road, Near MIT Flyover, Chromepet, Chennai, Tamilnadu, India, 600044"
+        },
+        {
+            "tag": "Chennai Meenakshi Multispeciality Hospital Ltd., Chennai",
+            "location": [
+                13.0354,
+                80.2355
+            ],
+            "Address": "# 148, Luz Church Road, Malapore, Chennai, Tamil Nadu, India, 600004"
+        },
+        {
+            "tag": "Chettinad Super Speciality Hospital (Cssh)-(A Unit Of Rajah Muthiah Charitable And Educational Trust), Chennai",
+            "location": [
+                12.8091,
+                80.2167
+            ],
+            "Address": "I.T. Highway, Kelambakkam, Tamil Nadu, India, 603103"
+        },
+        {
+            "tag": "Chitras Ent Laser Surgery Super Speciality Hospital, Chennai",
+            "location": [
+                13.0672,
+                80.2465
+            ],
+            "Address": "30C, Cathedral Garden Lane, Nungambakkam, Chennai, Tamil Nadu, India, 600034"
+        },
+        {
+            "tag": "Christudas Orthopaedic Speciality Hospital, Chennai",
+            "location": [
+                13.1057,
+                80.1921
+            ],
+            "Address": "#9, Duraiswamy Ngr. I.A.F. Road, Chennai, Tamil Nadu, India, 600059"
+        },
+        {
+            "tag": "Darshan Surgical Centre Llp, Chennai",
+            "location": [
+                13.1384,
+                80.1907
+            ],
+            "Address": "Block T-80, New No-24 5Th Main Road, Chennai, Tamil Nadu, India, 600040"
+        },
+        {
+            "tag": "Deepam Hospital, Chennai",
+            "location": [
+                12.9323,
+                80.1123
+            ],
+            "Address": "#327, Muthurangam Road, Tambaram (West), Kanchipuram, West Tambaram, Chennai, Tamil Nadu, India, 600045"
+        },
+        {
+            "tag": "Deepam Hospital Ltd, Chennai",
+            "location": [
+                12.9874,
+                80.2605
+            ],
+            "Address": "30, Ayyasamy Street, Chennai, Tamil Nadu, India, 600044"
+        },
+        {
+            "tag": "Deepam Hospital Ltd, Chennai",
+            "location": [
+                12.9897,
+                80.2533
+            ],
+            "Address": "107-A, GST Road, Chennai, Tamil Nadu, India, 600044"
+        },
+        {
+            "tag": "Doctor Rex'S Hospital, Chennai",
+            "location": [
+                13.0706,
+                80.2407
+            ],
+            "Address": "# 37, Millers Road, Kilpauk, Chennai, Tamil Nadu, India, 600010"
+        },
+        {
+            "tag": "Dr Kamakshi National Hospital, Chennai",
+            "location": [
+                13.1004,
+                80.2878
+            ],
+            "Address": "No 12 Jaffer Serang Street, Second Line Beach, Chennai, Tamil Nadu, India, 600001"
+        },
+        {
+            "tag": "Dr. Arvind Vision Care, Chennai",
+            "location": [
+                13.0919,
+                80.1647
+            ],
+            "Address": "#61, Reddy Palayam Road, Mogappair West, Chennai, Tamil Nadu, India, 600037"
+        },
+        {
+            "tag": "Dr. Grace George Hospital, Chennai",
+            "location": [
+                13.1323,
+                80.0468
+            ],
+            "Address": "# 34, Udayavar Koil Street, Thirumizhisai, Poonamallee, Tamil Nadu, India, 600029"
+        },
+        {
+            "tag": "Dr. Jacquline Divyananda (Divya Hospital), Chennai",
+            "location": [
+                12.9782,
+                80.2037
+            ],
+            "Address": "# 20, Medavakkam Main Road, Madipakkam, Chennai, Tamil Nadu, India, 600091"
+        },
+        {
+            "tag": "Dr. Mehta'S Multispeciality Hospital Pvt Ltd., Chennai",
+            "location": [
+                13.0661,
+                80.2395
+            ],
+            "Address": "2 (E), Mc. Nicholas Road, Chennai, Opposite To Chetpet Police Station, Tamil Nadu, India, 600031"
+        },
+        {
+            "tag": "Dr. Rela Institute & Medical Centre, Chennai",
+            "location": [
+                13.1107,
+                80.1453
+            ],
+            "Address": "No. 7, CLC Works Road, Chromepet, Chennai, Tamil Nadu, India, 600044"
+        },
+        {
+            "tag": "Dr. U Mohan Rau Memorial Hospital, Chennai",
+            "location": [
+                13.0282,
+                80.2644
+            ],
+            "Address": "#962, Poonamallee High Road, Near Motcham Theatre, Chennai, Tamil Nadu, India, 600084"
+        },
+        {
+            "tag": "Esic Hospital, Chennai",
+            "location": [
+                13.1066,
+                80.1839
+            ],
+            "Address": "# 32, Marshalls Road, Egmore, Chennai, Tamil Nadu, India, 600008"
+        },
+        {
+            "tag": "Eswari Nursing Home, Chennai",
+            "location": [
+                13.0795,
+                80.2045
+            ],
+            "Address": "# 1, 2Nd Main Road, Kasthurba Nagar, Adyar, Chennai, Tamil Nadu, India, 600020"
+        },
+        {
+            "tag": "Ethiraj Clinic & Nursing Home, Chennai",
+            "location": [
+                13.0726,
+                80.2534
+            ],
+            "Address": "40/1, E V K Sampath Road, Vepery, Chennai, Tamil Nadu, India, 600007"
+        },
+        {
+            "tag": "Frontier Lifeline Hospital, Chennai",
+            "location": [
+                13.0704,
+                80.1853
+            ],
+            "Address": "# 29, R-30C, Ambattur Industrial Estate Road, Chennai, Tamil Nadu, India, 600101"
+        },
+        {
+            "tag": "G.g. Hospital, Chennai",
+            "location": [
+                13.0921,
+                80.2869
+            ],
+            "Address": "# 6, E Block, 4Th Avenue, Anna Nagar East, Chennai, Tamil Nadu, India, 600102"
+        },
+        {
+            "tag": "G.g. Hospital (2), Chennai",
+            "location": [
+                13.0971,
+                80.2053
+            ],
+            "Address": "# 149, Grand Line, T.H. Road, Chennai, Tamil Nadu, India, 600118"
+        },
+        {
+            "tag": "G.j. Hospital & Trauma Centre Pvt Ltd., Chennai",
+            "location": [
+                12.9939,
+                80.2419
+            ],
+            "Address": "24-A, Halls Road, Egmore, Chennai, Tamil Nadu, India, 600008"
+        },
+        {
+            "tag": "G.S. Hospital, Chennai",
+            "location": [
+                13.1008,
+                80.2575
+            ],
+            "Address": "# 85, Greams Road, Chennai, Tamil Nadu, India, 600006"
+        },
+        {
+            "tag": "Gajanan Hospitals Pvt Ltd, Chennai",
+            "location": [
+                13.0871,
+                80.2162
+            ],
+            "Address": "#100, Poonamallee High Road, Chennai, Tamil Nadu, India, 600084"
+        },
+        {
+            "tag": "Ganga Nursing Home, Chennai",
+            "location": [
+                13.0527,
+                80.2506
+            ],
+            "Address": "#12, Khadar Nawaz Khan Road, Nungambakkam, Chennai, Tamil Nadu, India, 600034"
+        },
+        {
+            "tag": "Girishwari Hospital Pvt Ltd, Chennai",
+            "location": [
+                12.9822,
+                80.2528
+            ],
+            "Address": "#27, Gowtham Street, West Tambaram, Chennai, Tamil Nadu, India, 600045"
+        },
+        {
+            "tag": "Gkm Hospitals, Chennai",
+            "location": [
+                13.0644,
+                80.1962
+            ],
+            "Address": "# 120, 1St Main Road, Chennai, Tamil Nadu, India, 600099"
+        },
+        {
+            "tag": "Global Health City, Chennai",
+            "location": [
+                12.8234,
+                80.2427
+            ],
+            "Address": "# 439, Cheran Nagar, Perumbakkam, Chennai, Tamil Nadu, India, 600100"
+        },
+        {
+            "tag": "Government Hospital, Chennai",
+            "location": [
+                13.1159,
+                80.2868
+            ],
+            "Address": "No. 69, 1St Avenue, Shanti Colony, Anna Nagar, Chennai, Tamil Nadu, India, 600040"
+        },
+        {
+            "tag": "Grace Kennett Foundation Hospital, Chennai",
+            "location": [
+                13.1169,
+                80.1276
+            ],
+            "Address": "F1 & F2, Near Annai Arul Hospital, Kelambakkam, Chennai, Tamil Nadu, India, 603103"
+        },
+        {
+            "tag": "Govt. Peripheral Hospital, Chennai",
+            "location": [
+                13.0763,
+                80.2659
+            ],
+            "Address": "M.K.N. Road, Guindy, Chennai, Tamil Nadu, India, 600032"
+        },
+        {
+            "tag": "Gt Hospital (Sethu Foundation), Chennai",
+            "location": [
+                13.0629,
+                80.2437
+            ],
+            "Address": "# 14, Rajasekaran Street, Mylapore, Chennai, Tamil Nadu, India, 600004"
+        },
+        {
+            "tag": "Gurudeva Hospitals Pvt Ltd, Chennai",
+            "location": [
+                13.1493,
+                80.2718
+            ],
+            "Address": "# 33, 9Th Street, Lakshmipuram, Chennai, Tamil Nadu, India, 600099"
+        },
+        {
+            "tag": "H M Hospitals, Chennai",
+            "location": [
+                13.0736,
+                80.2412
+            ],
+            "Address": "# 48/1, Mannar Reddy Street, Chennai, Tamil Nadu, India, 600010"
+        },
+        {
+            "tag": "H.K. Hospital Pvt Ltd, Chennai",
+            "location": [
+                13.0541,
+                80.2733
+            ],
+            "Address": "#49, Kutchery Road, Mylapore, Chennai, Tamil Nadu, India, 600004"
+        },
+        {
+            "tag": "Hande Hospital, Chennai",
+            "location": [
+                13.0364,
+                80.2431
+            ],
+            "Address": "# 45, Lakshmi Talkies Road, Shenoy Nagar, Chennai, Tamil Nadu, India, 600030"
+        },
+        {
+            "tag": "Happy Times Nursing Home, Chennai",
+            "location": [
+                13.1026,
+                80.2517
+            ],
+            "Address": "# 92, Block B, Mmda Colony, Arumbakkam, Chennai, Tamil Nadu, India, 600106"
+        },
+        {
+            "tag": "Harvey Heart Hospitals Limited, Chennai",
+            "location": [
+                13.0723,
+                80.2152
+            ],
+            "Address": "# 24, Vth Main Road, Gandhi Nagar, Adyar, Chennai, Tamil Nadu, India, 600020"
+        },
+        {
+            "tag": "Hemoprime Hospitals, Chennai",
+            "location": [
+                13.0799,
+                80.2487
+            ],
+            "Address": "# 28, Perambur High Road, Chennai, Tamil Nadu, India, 600012"
+        },
+        {
+            "tag": "Hindu Mission Hospital, Chennai",
+            "location": [
+                12.9632,
+                80.2098
+            ],
+            "Address": "# 103, GST Road, Tambaram, Chennai, Tamil Nadu, India, 600045"
+        },
+        {
+            "tag": "Hindu Mission Hospital, Chennai",
+            "location": [
+                12.9254,
+                80.1384
+            ],
+            "Address": "# 103, GST Road, Tambaram, Chennai, Tamil Nadu, India, 600045"
+        },
+        {
+            "tag": "Hindu Mission Hospital, Chennai",
+            "location": [
+                12.9278,
+                80.1238
+            ],
+            "Address": "# 103, GST Road, Tambaram, Chennai, Tamil Nadu, India, 600045"
+        },
+        {
+            "tag": "Panimalar Medical College Hospital & Research Institute",
+            "location": [
+                13.0473,
+                80.0841
+            ],
+            "Address": "Varadharajapuram, Chennai Outer Ring Rd, Poonamallee, Chennai, Pidarithangal, Tamil Nadu 600123"
+        },
+        {
+            "tag": "Cure Well Hospital, Nazarathpettai, Tamil Nadu",
+            "location": [
+                13.0448,
+                80.0786
+            ],
+            "Address": "23VH+W6C, Bajanaikovil St, Nazarathpettai, Tamil Nadu 600069"
+        },
+        {
+            "tag": "S.S. Hospital, Nazarathpettai, Tamil Nadu",
+            "location": [
+                13.0476,
+                80.0807
+            ],
+            "Address": "23XJ+28V, Nazarathpettai, Tamil Nadu 600123"
+        },
+        {
+            "tag": "Aachi Hospital",
+            "location": [
+                13.0992,
+                80.1847
+            ],
+            "Address": "No:77, Thirumazhisai near: cake pie, 45, Chennai Tiruvallur High Rd, Chennai, Tamil Nadu 600124"
+        }
+    ]
+}

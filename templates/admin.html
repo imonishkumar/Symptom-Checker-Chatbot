@@ -1,0 +1,351 @@
+ <!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Medical Assistant</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+    <style>
+
+        .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container{
+            max-width:500px;
+        }
+
+        .img-fluid {
+            max-width: 50%;
+            height: auto;
+        }
+
+        h1{
+            text-align:center;
+        }
+
+        .card{
+            text-align: center;
+            align-items: center;
+            margin : auto;
+        }
+
+        ol{
+          font-size: 20px ;
+          text-align: left;
+        }
+
+        p{
+            font-size: 25px;
+        }
+
+        .navbar-nav .nav-item {
+            margin-left: 150px; /* Adjust the margin as needed */
+            color:White;
+        }
+      
+
+        /* Add the fixed-top class to make the navigation bar fixed at the top */
+        .navbar.fixed-top {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        .ftco-section {
+          padding: 2em 0; }
+           /* Add custom CSS for the navbar */
+        .navbar {
+            background-color: #1c2938; /* Black background color */
+        }
+
+        .navbar-brand {
+            color: #fff; /* White text color for the brand/logo */
+        }
+
+        .navbar-toggler {
+            background-color: #fff; /* White background color for the toggler button */
+        }
+
+        .navbar-nav {
+            margin-right: auto; /* Align the navbar items to the right */
+        }
+
+        .nav-item {
+            padding: 0 15px; /* Add spacing between navbar items */
+        }
+
+        .nav-link {
+            color: #ffffff !important; /* White text color for navbar links */
+        }
+
+        h2{
+          text-align: center;
+        }
+    </style>
+    <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css">
+<link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css">
+
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+
+</head>
+<body>
+  <section class="ftco-section">
+    <div class="container">
+        <!-- Add the fixed-top class to make the navigation bar fixed at the top -->
+        <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-dark fixed-top" id="ftco-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="/" style="color: #ffffff;" >Welcome</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span> Menu
+                </button>
+                <div class="collapse navbar-collapse" id="ftco-nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item" style="margin-right: -20px"><a href="/" class="nav-link">Home</a></li>
+                        <li class="nav-item" style="margin-right: -20px"><a href="https://github.com/SanjayKumar-Codes/Medi_bot" class="nav-link">Github </a></li>
+                        <li class="nav-item" style="margin-right: -20px"><a href="#" class="nav-link">About us</a></li>
+                        <li class="nav-item" style="margin-right: -20px"><a href="/" class="nav-link">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- END nav -->
+</section>
+
+<div class="container">
+  <h1>Admin Panel</h1>  <br><br><br>
+  <h2>This admin page will help you create or update information in the dataset.</h2><br><br><br>
+
+  <div class="row">
+      <div class="col-md-6">
+          <!-- Card 1: Update Disease Information -->
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Update Disease Information</h5>
+                  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateModal1">
+                      Update Disease Information
+                  </button>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-md-6">
+          <!-- Card 2: Update Location Information -->
+          <div class="card">
+              <div class="card-body">
+                  <h5 class="card-title">Update Location Information</h5>
+                  <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateModal2">
+                      Update Location Information
+                  </button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Modal for updating disease information -->
+  <div class="modal fade" id="updateModal1" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel1" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="updateModalLabel1">Update Disease Information</h5>
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <!-- Disease information form -->
+                  <form id="diseaseForm">
+                      <div class="mb-3">
+                          <label for="tag" class="form-label">Tag (Disease Name)</label>
+                          <input type="text" class="form-control" id="tag" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="patterns" class="form-label">Patterns (Symptoms, separated by commas)</label>
+                          <input type="text" class="form-control" id="patterns" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="responses" class="form-label">Response (Disease Information)</label>
+                          <textarea class="form-control" id="responses" rows="3" required></textarea>
+                      </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" id="updateDisease1">Update</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Modal for updating location information -->
+  <div class="modal fade" id="updateModal2" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel2" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="updateModalLabel2">Update Location Information</h5>
+                  <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <!-- Location information form -->
+                  <form id="locationForm">
+                      <div class="mb-3">
+                          <label for="locationTag" class="form-label">Tag (Location Name)</label>
+                          <input type="text" class="form-control" id="locationTag" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="locationCoordinates" class="form-label">Location (Coordinates)</label>
+                          <input type="text" class="form-control" id="locationCoordinates" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="locationAddress" class="form-label">Address</label>
+                          <textarea class="form-control" id="locationAddress" rows="3" required></textarea>
+                      </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" id="updateLocation">Update</button>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Include Bootstrap JS links -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script>
+  // JavaScript code to handle form submission and updating JSON
+  document.getElementById('updateDisease1').addEventListener('click', function () {
+      const tag = document.getElementById('tag').value;
+      const patterns = document.getElementById('patterns').value.split(',').map(pattern => pattern.trim());
+      const responses = document.getElementById('responses').value;
+
+      // You can add code to update your JSON file here
+      console.log('Updating JSON with the following data:');
+      console.log('Tag:', tag);
+      console.log('Patterns:', patterns);
+      console.log('Responses:', responses);
+
+      // Display a success message using a JavaScript alert
+      alert('Your data has been successfully updated in the JSON file.');
+
+      // Clear the form
+      document.getElementById('diseaseForm').reset();
+  });
+
+  document.getElementById('updateLocation').addEventListener('click', function () {
+      const locationTag = document.getElementById('locationTag').value;
+      const locationCoordinates = document.getElementById('locationCoordinates').value;
+      const locationAddress = document.getElementById('locationAddress').value;
+
+      // You can add code to update your JSON file here
+      console.log('Updating JSON with the following data:');
+      console.log('Tag:', locationTag);
+      console.log('Coordinates:', locationCoordinates);
+      console.log('Address:', locationAddress);
+
+      // Display a success message using a JavaScript alert
+      alert('Your data has been successfully updated in the JSON file.');
+
+      // Clear the form
+      document.getElementById('locationForm').reset();
+  });
+</script>
+
+<br><br><br><br><br><br><br><br><br>
+
+
+<footer class="relative bg-blueGray-200 pt-8 pb-6">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap text-left lg:text-left">
+      <div class="w-full lg:w-6/12 px-4">
+        <h4 class="text-3xl fonat-semibold text-blueGray-700">Let's keep in touch!</h4>
+        <h5 class="text-lg mt-0 mb-2 text-blueGray-600">
+        </h5>
+        <div class="mt-6 lg:mb-0 mb-6">
+          <button class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-linkedin"></i></button><button class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-facebook-square"></i></button><button class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
+            <i class="fab fa-github"></i>
+          </button>
+        </div>
+      </div>
+      <div class="w-full lg:w-6/12 px-4">
+        <div class="flex flex-wrap items-top mb-6">
+          <div class="w-full lg:w-4/12 px-4 ml-auto">
+            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">About Us</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Github</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="w-full lg:w-4/12 px-4">
+            <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
+            <ul class="list-unstyled">
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Terms &amp; Conditions</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Privacy Policy</a>
+              </li>
+              <li>
+                <a class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="my-6 border-blueGray-300">
+    <div class="flex flex-wrap items-center md:justify-between justify-center">
+      <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+        <div class="text-sm text-blueGray-500 font-semibold py-1">
+          Copyright © <span id="get-current-year">2023</span><a href="https://www.creative-tim.com/product/notus-js" class="text-blueGray-500 hover:text-gray-800" target="_blank"> by
+          <a href="#" class="text-blueGray-500 hover:text-blueGray-800">The Tech Wizards</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
