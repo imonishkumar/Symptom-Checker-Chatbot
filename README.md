@@ -1,5 +1,5 @@
 
-# Symptom Checker Chatbot
+# Symptom Checker Chatbot ai 
 
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
