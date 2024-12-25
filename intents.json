@@ -318,7 +318,7 @@
                 "stomach pain, skin rash, itching, burning micturition, spotting urination",
                 "itching, burning micturition, spotting urination"
             ],
-            "responses": "You have Drug Reaction. Drug reactions can manifest with symptoms like itching, skin rash, stomach pain, burning micturition, and spotting urination.<br>If you suspect a drug reaction, consult your healthcare provider immediately for evaluation and appropriate steps.",
+            "responses": "You have Drug Reaction Drug reactions can manifest with symptoms like itching, skin rash, stomach pain, burning micturition, and spotting urination.<br>If you suspect a drug reaction, consult your healthcare provider immediately for evaluation and appropriate steps.",
             "Precaution":"To avoid drug reaction:<br>1. Take medications as prescribed by a healthcare provider.<br>2. Report any adverse reactions to your doctor.<br>3. Inform healthcare providers of any allergies.<br>4. Avoid sharing medications with others."
         },
         {
