@@ -432,7 +432,7 @@
         {
             "tag": "Hepatitis B",
             "patterns": [
-                "fatigue, malaise, loss of appetite, receiving unsterile injections, itching, receiving blood transfusion, abdominal pain, yellowish skin, yellow urine, yellowing of eyes, lethargy, dark urine",
+                "fatigue, malaise,loss of appetite, receiving unsterile injections, itching, receiving blood transfusion, abdominal pain, yellowish skin, yellow urine, yellowing of eyes, lethargy, dark urine",
                 "receiving unsterile injections, itching, receiving blood transfusion, yellow urine, yellowing of eyes, dark urine",
                 "fatigue, malaise, loss of appetite, itching, dark urine",
                 "receiving unsterile injections, itching, abdominal pain, yellowish skin, yellow urine, yellowing of eyes"
